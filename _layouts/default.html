@@ -1,10 +1,10 @@
----
----
+<!doctype html>
 <html>
-	<head>
-		<title>SETE</title>
-		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Black+Ops+One|Special+Elite" rel="stylesheet">
-		<style>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Black+Ops+One|Special+Elite" rel="stylesheet">
+    <title>{{ page.title }}</title>
+    <style>
 
 
 			html,body{
@@ -21,7 +21,6 @@
 				background-repeat:no-repeat;
 				background-position:center center;
 				background-attachment:fixed;
-				padding-bottom:50px;
 			}
 			.floatBG{
 				background:url(/assets/Header.png);
@@ -37,8 +36,7 @@
 			}
 			.header{
 				width:100%;
-				height:100%;
-				margin-top:-60px;
+				height:90vh;
 				display:flex;
 				align-items: center;
 				justify-content: center;
@@ -238,90 +236,31 @@
 				text-align:center;
 				display:inline-block;
 			}
+			.page{
+				background:white;
+				padding:50px;
+				font-family:"Special Elite";
+				width:60%;
+				margin: 0 auto;
+				line-height:30px;
+				font-size:20px;
+				box-shadow:0px 0px 20px rgba(0,0,0,0.4);
+			}
 		</style>
-	</head>
-	<body>
-		<div class="floatbg"></div>
-		<div class="header">
-			<img class="icon" style="transform:rotate(20deg);top:120;left:120;animation-duration:5s" src="./assets/icons8-naval_mine.svg">
-			<img class="icon" style="transform:rotate(20deg);top:320;left:50;animation-duration:5s" src="./assets/icons8-infantry_knife.svg">
-			<img class="icon" style="transform:rotate(20deg);top:620;left:150;animation-duration:5s" src="./assets/icons8-assault_rifle.svg">
-			<img class="icon" style="transform:rotate(-20deg);top:120;right:120;animation-duration:10s" src="./assets/icons8-gun.svg">
-			<img class="icon" style="transform:rotate(20deg);top:320;right:50;animation-duration:10s" src="./assets/icons8-grenade.svg">
-			<img class="icon" style="transform:rotate(20deg);top:620;right:150;animation-duration:10s" src="./assets/icons8-skull.svg">
-			<img src="./assets/icons8-helmet.svg" width="250" height="250">
-			<h1>THE SANDPORT ESCORT TRANSPORT EFFORT</h1>
-			<br><br>
-			<h3 style="background:transparent;color:black">A tame game about taking aim, we claim.</h3>
-		</div>
-		<div class="about">
-			<div style="text-align:center">
-				<img src="./assets/icons8-usa.svg" class="item">
-				<img src="./assets/icons8-china.svg" class="item">
-				<img src="./assets/icons8-ussr.svg" class="item">
-				<img src="./assets/icons8-vietnam.svg" class="item">
-				<img src="./assets/icons8-united_arab_emirates.svg" class="item">
-			</div>
-			<br>
-			<h1>TOP SECRET</h1>
-			<br>
-			<div class="twitter" style="background:white;border-radius:10px;padding:20px; font-family:'Helvetica Neue'">
-				<img src="./assets/icons8-twitter.svg" class="item">
-				<h3>[12/7/18 12:29:43] @POTUS: We've received reports that a soldier has been left on the battlefield.</h3>
-				<h3>[12/7/18 12:42:43] @FlynnyBoy: Why would you tweet this?</h3>
-				<h3>[12/7/18 12:45:53] @POTUS: Idk lol</h3>
-				<h3>[12/7/18 12:50:13] @China: bet</h3>
-				<h3>[12/7/18 12:55:25] @Russia: gucci</h3>
-				<h3>[12/7/18 01:02:21] @Vietnam: Interesting.</h3>
-				<h3>[12/7/18 01:05:21] @UAE: omw.</h3>
-			</div>
-			<br>
-			<h3>So, the US, China, Russia, Vietnam, and the UAE are all trying to get this soldier back on their turf. <Br><br>Whoever succeeds gets a large amount of intel.</h3>
-			<br>
-
-		</div>
-		<div class="how">
-			<div>
-				<img src="./assets/icons8-cards.svg" class="item">
-				<img src="./assets/icons8-bullet_2.svg" class="item">
-				<img src="./assets/icons8-usa.svg" class="item">
-				<img src="./assets/icons8-return.svg" class="item">
-			</div>
-			<br><br>
-			<h1>MOVE, SHOOT, COLLECT, RETURN</h1>
-			<br>
-			<h3>Use your cards to move throughout the battlefield, shoot others who are getting too close to the package. <br><br>Collect the soldier, and return to your home turf to win.</h3>
-		</div>
-		<div class="buy">
-			<div>
-				<img src="./assets/icons8-sergeant_sgt.svg" class="item">
-			</div>
-			<br><br>
-			<h1>READY TO ENLIST?</h1>
-			<a class="button" href="https://www.smashbros.com/en_US/fighter/index.html">PRE-ORDER NOW</a>
-		</div>
-		<div class="nerd" id="blog">
-			<div>
-				<img src="./assets/icons8-blog.svg" class="item">
-			</div>
-			<h1>DEV BLOG</h1>
-			<br>
-			<h3>If you're forced to read these we're so sorry.</h3>
-			<br><br>
-			<div style="width:50%;text-align:center;">
-				{% for post in site.posts %}
-					<a href="{{ post.url }}" class="blog">
-						<div class="blogPost">
-							<sub style="color:red;text"><b>TOP SECRET</b></sub>
-							<br><br>
-							<sub>{{ post.date | date: '%B %d, %Y' }}</sub>
-							<h4>{{ post.title }}</h4>
-
-						  	<p>{{ post.excerpt }}</p>
-						</div>
-					</a>
-				{% endfor %}
-			</div>
-		</div>
-	</body>
+  </head>
+  <body>
+  	<a href="/#blog" style="position:fixed;top:60px;left:60px;color:black;text-decoration: none;font-size:64px">◀︎</a>
+  	<div class="floatBG"></div>
+  	<div class="header">
+  		<img src="/assets/icons8-helmet.svg" width="250" height="250">
+  		<h1>{{ page.title }}</h1>
+  		<br><br>
+  		<h3 style="background:transparent;color:black">By {{page.author}}</h3>
+  	</div>
+  	<div class="page">
+  		<sub style="background:black;color:white;padding:10px;">MEMO BY {{page.author | upcase}} ON {{page.date}}</sub>
+  		<br><br>
+  		{{page.content}}
+  	</div>
+  </body>
 </html>
