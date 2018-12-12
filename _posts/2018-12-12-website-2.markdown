@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Website 2"
+date:   2018-12-12 13:16:11 -0500
+categories: jekyll update
+author: "Sam Gehly"
+--- 
+Similar to the board, we were largely happy where the website stood. This week's work mostly revolved around minor bug fixes, blog design finalizations (look at how integrated this page is into the design of the rest of the site :O). Damn that black arrow in the corner doesn't fade on hover. Oops. Anyways, we changed a few of the elements on the site, mostly having to do with the lore. We also changed the pre-order link to go to the Smash roster because why play a board game when you can mash A a bunch?

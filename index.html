@@ -105,9 +105,6 @@
 				margin-top:30px;
 				margin-bottom:30px;
 			}
-			.about div h3{
-				text-align:left;
-			}
 			.woodbg{
 				width:100%;
 				background:#322921;
@@ -141,10 +138,14 @@
 				line-height:42px;
 				text-align:center;
 			}
+			.twitter{
+				padding:50px;
+			}
 			.twitter h3{
-				font-family:"Helvetica Neue";
-				width:100% !important;
 				background:transparent;
+				text-align:center;
+				width:100%;
+				padding:0;
 				color:black;
 			}
 			.twitter h3:not(:first-child){
@@ -204,6 +205,9 @@
 				border-radius:10px;
 				border:5px solid #513115;
 				text-align:left;
+				display:flex;
+				flex-direction:column;
+				width:100%;
 			}
 			.blogPost sub{
 				font-family:"Special Elite";
@@ -217,6 +221,7 @@
 				margin-top:20px;
 				margin-bottom:20px;
 				display:block;
+				flex:1;
 				text-decoration:none;
 			}
 			.blogPost p{
@@ -236,7 +241,7 @@
 			.blog{
 				width:45%;
 				text-align:center;
-				display:inline-block;
+				display:inline-flex;
 			}
 		</style>
 	</head>
@@ -258,22 +263,15 @@
 			<div style="text-align:center">
 				<img src="./assets/icons8-usa.svg" class="item">
 				<img src="./assets/icons8-china.svg" class="item">
-				<img src="./assets/icons8-ussr.svg" class="item">
+				<img src="./assets/icons8-russian_federation.svg" class="item">
 				<img src="./assets/icons8-vietnam.svg" class="item">
 				<img src="./assets/icons8-united_arab_emirates.svg" class="item">
 			</div>
 			<br>
 			<h1>TOP SECRET</h1>
 			<br>
-			<div class="twitter" style="background:white;border-radius:10px;padding:20px; font-family:'Helvetica Neue'">
-				<img src="./assets/icons8-twitter.svg" class="item">
-				<h3>[12/7/18 12:29:43] @POTUS: We've received reports that a soldier has been left on the battlefield.</h3>
-				<h3>[12/7/18 12:42:43] @FlynnyBoy: Why would you tweet this?</h3>
-				<h3>[12/7/18 12:45:53] @POTUS: Idk lol</h3>
-				<h3>[12/7/18 12:50:13] @China: bet</h3>
-				<h3>[12/7/18 12:55:25] @Russia: gucci</h3>
-				<h3>[12/7/18 01:02:21] @Vietnam: Interesting.</h3>
-				<h3>[12/7/18 01:05:21] @UAE: omw.</h3>
+			<div class="twitter" style="background:white;color:'black';border-radius:0px;">
+				<h3>Its 2028 and World War III is in full swing. Sergeant Fugifino of the United States Military is critically wounded in the center of the Sandport Battlefield in Saudi Arabia. He is carrying critical intel that has the potential to win the war. The governments of the United States, the United Arab Emirates, China, Russia and Vietnam are all in a race to bring him back to their respective counties alive and recover the intel he has. There are various supply caches that have been air dropped all over the battlefield that will aid each country in their quest to recover Fugifino. 2028 has had quite an innovation in military equipment with new weapons that give soldiers special advantages over their opponents. All alliances between Russia, the US, China, Vietnam, and the UAE are off. There are no boundaries in war. Only one country will be able to get what they desire and then the fate of the world will rest in their hands.</h3>
 			</div>
 			<br>
 			<h3>So, the US, China, Russia, Vietnam, and the UAE are all trying to get this soldier back on their turf. <Br><br>Whoever succeeds gets a large amount of intel.</h3>
@@ -308,7 +306,7 @@
 			<br>
 			<h3>If you're forced to read these we're so sorry.</h3>
 			<br><br>
-			<div style="width:50%;text-align:center;">
+			<div style="width:50%;text-align:center;display:flex;flex-wrap:wrap">
 				{% for post in site.posts %}
 					<a href="{{ post.url }}" class="blog">
 						<div class="blogPost">
@@ -316,8 +314,8 @@
 							<br><br>
 							<sub>{{ post.date | date: '%B %d, %Y' }}</sub>
 							<h4>{{ post.title }}</h4>
-
-						  	<p>{{ post.excerpt }}</p>
+							<br>
+							<sub>BY {{post.author | upcase}}</sub>
 						</div>
 					</a>
 				{% endfor %}

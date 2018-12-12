@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Lore 2"
+date:   2018-12-11 13:16:11 -0500
+categories: jekyll update
+author: "Sam Gehly"
+--- 
+Lore remained largely the same, though we did add some details. 2028 sounds like a good year for World War III and Sandport is now a battlefield instead of a desert, because why not add more war lingo? Sgt Fugifino now has some useful intel to share with the countries trying to capture him, what a guy. We also had to futurize the lore to support the special cards. Hell just ask the aliens in the top right I mean that would've also been a good explanation.

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Website"
+date:   2018-12-6 13:16:11 -0500
+categories: jekyll update
+author: "Sam Gehly"
+--- 
+It was really tempting to just slap on a WordPress theme and call it a day. It was really, really, REALLY tempting. Unfortunately two of our group members knew that I worked as a software engineer part time, and so it quickly turned into a whole custom Jekyll website and here we are. There is some lazy-ass code in here due to the time constraints, but here it is, all nice and pretty and hopefully working. The site was designed in order to match the overall vibe of the board, in order to appeal to anyone between kids, adults, and everyone in between. The website itself is hosted on GitHub Pages because if you think I still pay for a web server in 2018 you're running websites wrong.

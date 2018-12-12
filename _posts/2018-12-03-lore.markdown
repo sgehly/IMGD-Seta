@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Lore"
+date:   2018-12-03 13:16:11 -0500
+categories: jekyll update
+author: "Sam Gehly"
+--- 
+When you have a bunch of army guys, you pretty much have your theme set up for you. When the idea for a circular board comes up, and the idea of a fetch and return idea (from the origin of the game post) exists, you have yourself an *escort* mission where you make an *effort* to *transport*. War usually happens in a place full of and because you want all the words to rhyme in a Courtney-Portnoy-esque fashion, you have yourself the fictional *Sandport*. Different countries fighting is a popular topic for war-related games, and it was easy to craft a story around a rescue operation. Go rescue that Sgt Fugifino!
