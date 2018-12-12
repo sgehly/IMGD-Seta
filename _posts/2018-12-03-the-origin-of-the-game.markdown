@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Origin of the Game"
-date:   2018-12-03 16:56:33 -0500
+date:   2018-12-03 10:56:33 -0500
 categories: jekyll update
 author: "John Frazia"
 ---

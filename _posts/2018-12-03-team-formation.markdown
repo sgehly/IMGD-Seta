@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Team Formation"
-date:   2018-12-03 13:16:11 -0500
+date:   2018-12-03 9:16:11 -0500
 categories: jekyll update
 author: "Gabe Aponte"
 --- 
