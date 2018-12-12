@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Out of Class Meeting 2"
-date:   2018-12-05 13:16:11 -0500
+date:   2018-12-06 13:16:11 -0500
 categories: jekyll update
 author: "Gabe Aponte"
 --- 
