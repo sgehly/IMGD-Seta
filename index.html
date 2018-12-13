@@ -243,6 +243,42 @@
 				text-align:center;
 				display:inline-flex;
 			}
+			.people{
+				align-items:flex-start;
+				justify-content: center;
+				align-self:center;
+				width:60%;
+				flex-wrap:wrap;
+			}
+			.people div{
+				width:32%;
+				margin-top:40px;
+				margin-bottom:40px;
+				display:flex;
+				align-items:center;
+				justify-content: center;
+				flex-direction:column;
+			}
+			.people h3{
+				font-size:20px;
+				padding:20px;
+			}
+			.people img{
+				height:100px;
+				width:100px;
+				background:black;
+				padding:15px;
+			}
+			.people p{
+				color:black;
+				font-family:"Special Elite";
+				font-weight:500;
+				text-align:center;
+				font-size:24px;
+				padding-top:20px;
+				line-height:30px;
+				width:100%;
+			}
 		</style>
 	</head>
 	<body>
@@ -305,6 +341,33 @@
 			<h1>DEV BLOG</h1>
 			<br>
 			<h3>If you're forced to read these we're so sorry.</h3>
+			<div style="display:flex" class="people">
+				<div>
+					<img src="./assets/icons8-staff_sergeant_ssg.svg">
+					<h3>Gabriel<br>Aponte</h3>
+					<p>Project Manager / Rule Clarity</p>
+				</div>
+				<div>
+					<img src="./assets/icons8-paint_palette.svg">
+					<h3>Samuel<br>Gehly</h3>
+					<p>Website / Game Board / Lore</p>
+				</div>
+				<div>
+					<img src="./assets/icons8-design.svg">
+					<h3>John<br>Frazia</h3>
+					<p>Mechanics (Special Cards/Spaces/Attacking)</p>
+				</div>
+				<div>
+					<img src="./assets/icons8-book.svg">
+					<h3>Hannah<br>Goodsell</h3>
+					<p>Art / Lore</p>
+				</div>
+				<div>
+					<img src="./assets/icons8-design.svg">
+					<h3>Hunter<br>Trautz</h3>
+					<p>Mechanics (Movement)</p>
+				</div>
+			</div>
 			<br><br>
 			<div style="width:50%;text-align:center;display:flex;flex-wrap:wrap;justify-content: center;">
 				{% for post in site.posts %}

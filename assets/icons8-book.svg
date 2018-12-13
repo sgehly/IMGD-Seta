@@ -1,2 +1,12 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 64 64"><title>Dusk Part 3</title><rect x="14" y="5" width="39" height="48" rx="2" ry="2" style="fill:#faefde;"/><path d="M12,5h7a0,0,0,0,1,0,0V53a0,0,0,0,1,0,0H9a0,0,0,0,1,0,0V8A3,3,0,0,1,12,5Z" style="fill:#cda1a7;"/><rect x="9" y="53" width="42" height="6" rx="2" ry="2" style="fill:#efd8be;"/><path d="M38,25a1,1,0,0,0-1-1H27a1,1,0,0,0,0,2H37A1,1,0,0,0,38,25Z" style="fill:#8d6c9f;"/><path d="M45,24H41a1,1,0,0,0,0,2h4a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M41,28H31a1,1,0,0,0,0,2H41a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M19,8a1,1,0,0,0-1,1v4a1,1,0,0,0,2,0V9A1,1,0,0,0,19,8Z" style="fill:#8d6c9f;"/><path d="M51,4H12A4,4,0,0,0,8,8V56a4,4,0,0,0,4,4H49a3,3,0,0,0,3-3V53.82A3,3,0,0,0,54,51V7A3,3,0,0,0,51,4ZM49,58H12a2,2,0,0,1-2-2,2.26,2.26,0,0,1,2-2H50v3A1,1,0,0,1,49,58Zm3-7a1,1,0,0,1-1,1H20V17a1,1,0,0,0-2,0V52H12a3.94,3.94,0,0,0-2,.63V8a2,2,0,0,1,2-2H51a1,1,0,0,1,1,1Z" style="fill:#8d6c9f;"/><path d="M15,8H13a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M15,13H13a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M15,18H13a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M15,23H13a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M15,28H13a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M15,33H13a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M15,38H13a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M15,43H13a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/><path d="M15,48H13a1,1,0,0,0,0,2h2a1,1,0,0,0,0-2Z" style="fill:#8d6c9f;"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<path fill="#7E57C2" d="M38,5L14,4.998c-2.207,0-4.816,1.068-4.984,6.002H9c0,0,0,19.824,0,28l0.018-0.054
+	C9.2,42.585,11.565,43,12.607,43H36c0.188,0,0.5,0,1,0c2,0,2-2,2-2v-5.998V6C39,5.447,38.553,5,38,5z"/>
+<path fill="#FFE0B2" d="M36,36H12.607C11.275,36,11,37.119,11,38.5c0,1.382,0.275,2.502,1.607,2.502L36,41V36z"/>
+<path fill="#E0B990" d="M12.607,36c-1.167,0-1.522,0.858-1.593,2H36v-2H12.607z"/>
+<rect x="14" y="10.998" fill="#FFECB3" width="21" height="5"/>
+<path fill="#311B92" d="M38,36h-2v7c0.188,0,0.5,0,1,0c2,0,2-2,2-2v-5.998C39,35.553,38.553,36,38,36z"/>
+</svg>
